@@ -1,0 +1,189 @@
+<!--Mobile First Development-->
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+      <title>Oscar Calzada | Developer/Designer/Problem Solver</title>
+      <meta name="author" content="Oscar Calzada">
+      <meta name="description" content="personal web/developer portfolio by Oscar Calzada">
+      <meta name="keywords" content="Oscar, Calzada, Developer, Designer, Front End, Back End, Website builder, Web Developer">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link media="screen and (min-width: 600px)" rel="stylesheet" type="text/css" href="style600.css">
+      <link media="screen and (min-width: 1024px)" rel="stylesheet" type="text/css" href="style1024.css">
+      <link media="screen and (min-width: 1500px)" rel="stylesheet" type="text/css" href="style1500.css">
+      <link href="https://fonts.googleapis.com/css2?family=Sura:wght@400;700&display=swap" rel="stylesheet">
+      <script src="script.js" defer></script>
+    </head>
+    <body>
+        <!--Mobile Navigation Menu-->
+        <section class="side">
+            <p class="side__title">Oscar Calzada</p>
+            <aside class="side__navigation">
+                <a href="index.html" class="side__link"><button class="side__button">Home</button></a>
+                <div class="side__dropdown">
+                    <a href="#portfolio" class="side__link">
+                        <button class="side__button">Portfolio</button>
+                    </a>
+                    <a href="#skills" class="side__link">
+                        <button class="side__button">Skills</button>
+                    </a>
+                    <a href="oscars-resume.pdf" rel="noreferrer noopener" target="_blank" class="side__link">
+                        <button class="side__button">Resume</button>
+                    </a>
+                    <a href="https://github.com/oscarcalzadadev" class="side__link">
+                        <button class="side__button">GitHub</button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/oscarcalzada/" class="side__link">
+                        <button class="side__button">LinkedIn</button>
+                    </a>
+                </div>
+                <a href="#contact" class="side__link">
+                    <button class="side__button">Contact</button>
+                </a>
+            </aside>
+        </section>
+
+        <!--Navigation Bar-->
+        <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                  <a class="nav__link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#skills">Skills</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="oscars-resume.pdf"  rel="noreferrer noopener" target="_blank">Resume</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="https://github.com/oscarcalzadadev">GitHub</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="https://www.linkedin.com/in/oscarcalzada/">LinkedIn</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#contact">Contact</a>
+              </li>
+            </ul>
+        </nav>
+
+        <a href="index.html">
+          <img src="oscars-logo.jpg" alt="oscars logo" class="logo">
+        </a>
+        <i class="fa fa-bars burger"></i>
+        <i class="fa fa-plus exit"></i>
+
+        <!--Header-->
+        <header>
+            <!--Background Video-->
+          <section class="video">
+            <aside class="video__container">
+              <video class="video__video" src="oscar-background-video.mp4" autoplay muted loop></video>
+            </aside>
+            
+            <!--Video Overlay-->
+            <aside class="overlay">
+              <div class="overlay__container">
+                <h1 class="overlay__title">OSCAR CALZADA</h1>
+                <h2 class="overlay__subtitle">Front End Developer</h2>
+              </div> 
+              <div id="portfolio"></div>
+        </header>
+        
+        <!--Portfolio-->
+        <main class="main">
+            <h3 class="main__title">PORTFOLIO</h3>
+            <section class="portfolio">
+                <p class="portfolio__title">Boxless Media Websites<br>(In Development)</p>
+                <aside class="portfolio__project">
+                    <p class="portfolio__project-brief">
+                          These multi-page, mobile responsive websites were built for Boxless Media, 
+                          one of Chicago's top digital marketing agencies.
+                          Boxless Media wanted a complete redesign of their original websites along 
+                          with some new microsites for their growing business. 
+                    </p>
+                    <img src="boxless-media-websites.PNG" alt="picture of website" class="portfolio__image">
+                    <p class="portfolio__tools">BUILT WITH:<br><i>HTML, CSS, JS, PHP, MYSQL</i></p>
+                    <a href="http://redesign.boxlessmedia.com/"><button class="portfolio__button">View Site</button></a>
+                </aside>
+            </section>
+            <hr>
+            <section class="portfolio">
+                <p class="portfolio__title">Basic Virtual Keyboard</p>
+                <aside class="portfolio__project">
+                    <p class="portfolio__project-brief">To further increase my JavaScript knowledge & problem solving skills
+                        I like to challenge myself by building small side projects such as this Virtual Keyboard. 
+                    </p>
+                    <img src="virtual-keyboard.PNG" alt="picture of website" class="portfolio__image">
+                    <p class="portfolio__tools">BUILT WITH:<br><i>HTML, CSS, JAVASCRIPT</i></p>
+                    <a href="https://superbasicvirtualkeyboard.netlify.app/"><button class="portfolio__button">View Site</button></a>
+                </aside>
+            </section>
+            <hr>
+            <section class="portfolio">
+                <p class="portfolio__title">Guess The Number Game</p>
+                <aside class="portfolio__project">
+                    <p class="portfolio__project-brief">As a hardcore gamer, I love attempting to build games.
+                         I always start simple. I build projects piece by piece,
+                        one component at a time and then make it all come together in the end. Eventually, I plan to 
+                        build more complex games to further increase my problem solving & JavaScript skills.
+                    </p>
+                    <img src="guess-the-number-game.PNG" alt="picture of website" class="portfolio__image">
+                    <p class="portfolio__tools">BUILT WITH:<br><i>HTML, CSS, JAVASCRIPT</i> </p>
+                    <a href="https://oscarsguessthenumbergame.netlify.app/"><button class="portfolio__button">View Site</button></a>
+                </aside>
+                <!--<a href="projects/allprojects.html"><button class="portfolio__view-all">View All Projects</button></a> REMOVED FOR NOW UNTIL I HAVE MORE PROJECTS TO ADD-->
+                <div id="skills"></div>
+            </section>
+
+            <!--Technical Skills-->
+            <section class="skills">
+              <h3 class="skills__title">TECHNICAL SKILLS</h3>
+              <section class="skills__container">
+                <aside class="skills__section-1">
+                  <p class="skills__subtitle">PROFICIENT WITH:</p>
+                  <p class="skills__skill1">✦ HTML</p>
+                  <p class="skills__skill1">✦ CSS</p>
+                  <p class="skills__skill1">✦ JavaScript</p>
+                  <p class="skills__skill1">✦ SASS</p>
+                  <p class="skills__skill1">✦ Boostrap</p>
+                  <p class="skills__skill1">✦ BEM CSS</p>
+                  <p class="skills__skill1">✦ Visual Studio Code</p>
+                  <p class="skills__skill1">✦ Adobe XD</p>
+                </aside>
+                <aside class="skills__section-2">
+                  <p class="skills__subtitle skills__subtitle2">WORKING KNOWLEDGE OF:</p>
+                  <p class="skills__skill2">✦ Git</p>
+                  <p class="skills__skill2">✦ GitHub</p>
+                  <p class="skills__skill2">✦ PHP</p>
+                  <p class="skills__skill2">✦ mySQL</p>
+                  <p class="skills__skill2">✦ Wordpress</p>
+                  <p class="skills__skill2">✦ Photoshop</p>
+                  <p class="skills__skill2">✦ Figma</p>
+                  <p class="skills__skill2">✦ Wireframing</p>
+                  <p class="skills__skill2">✦ Prototyping</p>
+                </aside>
+              </section>
+            </section>
+        </main>
+
+         <!--Footer/Form-->
+         <footer id="contact">
+            <section class="contact">
+              <form data-netlify="true" method="POST">
+                <h3 class="contact__title">Contact Oscar</h3>
+                <label for="name">Name<sup>*</sup></label>
+                <input name="name" required type="text" id="name">
+                <label for="email">Email<sup>*</sup></label>
+                <input name="email" required type="email" id="email">
+                <label for="message">Message<sup>*</sup></label>
+                <textarea name="message" required id="message"></textarea>
+                <input name="submit" type="submit">
+              </form>
+            </section>
+          </footer>
+
+    </body>
+    </html>

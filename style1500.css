@@ -1,0 +1,20 @@
+/* OVERLAY */
+.overlay__title {
+    font-size: 90px;
+  }
+  .overlay__subtitle {
+    font-size: 65px;
+    position: relative;
+    bottom: 44px;
+  }
+  
+/* MAIN / PORTFOLIO */
+  .main__title {
+    font-size: 65px;
+    width: 373px;
+}
+
+/* Technical Skills */
+.skills__title {
+    font-size: 65px;
+}

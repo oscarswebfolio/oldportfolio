@@ -1,0 +1,237 @@
+:root {
+    --oscarPurple: #A62DF6;
+    --oscarFont: 'Sura', serif;
+    }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--oscarFont);
+}
+/*Side Menu*/
+.side {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: black;
+    display: none;
+    z-index: 101;
+}
+.side__title {
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -45px;
+    position: relative;
+    top: 45px;
+    color: #A62DF6;
+    text-shadow: 0px 1px 1px #EDEDED;
+}
+.exit {
+    font-size: 50px;
+    transform: rotate(45deg);
+    position: fixed;
+    color: white;
+    top: 0;
+    right: 0;
+    margin-right: 4px;
+    cursor: pointer;
+    display: none;
+    z-index: 101;
+}
+.side__link {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.side__link:hover {
+    color: black;
+}
+.side__button {
+    width: 337px;
+    cursor: pointer;
+    background-color: #A62DF6;
+    color: white;
+    padding: 8px;
+    position: relative;
+    top: 50px;
+    font-size: 17px;
+    border: none;
+    box-shadow: 0px 0px 1px black;
+}
+.side__button:hover {
+    background-color: grey;
+}
+
+/* Navigation Bar */
+.logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    width: 50px;
+    cursor: pointer;
+    display: none;
+}
+.burger {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 101;
+    font-size: 48px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    padding: 0px 5px;
+}
+.nav {
+    position: fixed;
+    top: 0;
+    z-index: 101;
+    background-color: black;
+    width: 100%;
+    display: none;
+}
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+.nav__item {
+    margin-right: 15px;
+}
+.nav__link {
+    text-decoration: none;
+    color: #A62DF6;
+    font-size: 20px;
+}
+.nav__link:hover {
+    color: white;
+}
+/* MAIN / PORTFOLIO */
+.main {
+    margin-top: 50px;
+}
+.main__title {
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    width: 159px;
+    position: relative;
+    top: 30px;
+    margin: auto;
+}
+.portfolio {
+    text-align: center;
+    padding-bottom: 50px; 
+}
+.portfolio__title {
+  font-size: 23px;
+  position: relative;
+  top: 20px;
+  font-weight: 900;
+}
+.portfolio__project-brief {
+    padding: 0px 5px;
+    width: 310px;
+    margin: auto;
+}
+.portfolio__image {
+    width: 300px;
+    margin-top: 20px;
+}
+.portfolio__tools {
+    font-weight: 900;
+}
+.portfolio__button {
+    color: white;
+    background-color: var(--oscarPurple);
+    border: none;
+    width: 100px;
+    padding: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+}
+.portfolio__button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+.portfolio__view-all {
+    color: white;
+    background-color: black;
+    border: none;
+    width: 240px;
+    padding: 15px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+@media screen and (min-width: 600px) {
+/* MAIN / PORTFOLIO */
+.main__title {
+    font-size: 38px;
+    width: 211px;
+}
+.portfolio__title {
+  font-size: 30px;
+}
+.portfolio__project-brief {
+    width: 550px;
+    font-size: 18px;
+}
+.portfolio__image {
+    width: 500px;
+}
+.portfolio__tools {
+    font-size: 18px;
+}
+.portfolio__button {
+    width: 170px;
+    padding: 10px;
+    font-size: 18px;
+}
+}
+@media screen and (min-width: 1024px) {
+    .nav {
+        display: block;
+    }
+    .logo {
+        width: 50px;
+        display: block;
+    }
+    .burger {
+        display: none !important;
+    }
+/* MAIN / PORTFOLIO */
+.main__title {
+    font-size: 48px;
+    width: 273px;
+}
+.portfolio__title {
+  font-size: 33px;
+}
+.portfolio__project-brief {
+    width: 700px;
+}
+.portfolio__image {
+    width: 700px;
+}
+.portfolio__tools {
+    font-size: 18px;
+}
+.portfolio__button {
+    width: 170px;
+    padding: 10px;
+    font-size: 18px;
+}
+}
+
+@media screen and (min-width: 1500px) {
+/* MAIN / PORTFOLIO */
+  .main__title {
+    font-size: 65px;
+    width: 373px;
+}
+}

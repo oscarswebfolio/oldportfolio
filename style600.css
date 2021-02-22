@@ -1,0 +1,108 @@
+:root {
+    --oscarPurple: #A62DF6;
+    --oscarFont: 'Sura', serif;
+    --oscarOrange: rgb(255, 142, 0);
+    }
+ 
+ /*Video Overlay*/
+  .overlay__title {
+    font-size: 60px;
+  }
+  .overlay__subtitle {
+    font-size: 50px;
+    position: relative;
+    bottom: 30px;
+  }
+
+/* MAIN / PORTFOLIO */
+.main__title {
+    font-size: 38px;
+    width: 211px;
+}
+.portfolio__title {
+  font-size: 30px;
+}
+.portfolio__project-brief {
+    width: 550px;
+    font-size: 18px;
+}
+.portfolio__image {
+    width: 500px;
+}
+.portfolio__tools {
+    font-size: 18px;
+}
+.portfolio__button {
+    width: 170px;
+    padding: 10px;
+    font-size: 18px;
+}
+/* FOOTER */
+form {
+  width: 440px;
+  height: 570px;
+
+}
+.contact__title {
+    font-size: 50px;
+}
+form > label {
+  margin-left: 41px;
+  font-size: 25px;
+}
+form > input {
+    font-size: 20px;
+}
+form > textarea {
+    font-size: 20px;
+}
+[type="submit"] {
+    width: 357px;
+}
+
+
+
+
+/* EXCEPTION RULES */
+@media screen and (min-width: 660px) {
+    /*Technical Skills*/
+    .skills {
+        padding-bottom: 150px;
+        background-color: black;
+    }
+    .skills__title {
+        color: white;
+        font-size: 38px;
+        padding-top: 30px;
+    }
+    .skills__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 630px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .skills__subtitle {
+        margin-top: 30px;
+    }
+    .skills__subtitle2 {
+        margin-top: 0;
+    }
+    .skills__section-1 {
+        background-color: var(--oscarPurple);
+        color: white;
+        border-radius: 10px;
+        transform: translate(70px, -30px);
+        box-shadow: -2px -2px 3px #EDEDED;
+    }
+    .skills__section-2 {
+        background-color: #242424;
+        color: white;
+        border-radius: 10px;
+        transform: translate(-20px, 60px);
+        padding: 15px;
+        width: 200px;
+        box-shadow: -2px -2px 1px #EDEDED;
+    }
+   
+    }

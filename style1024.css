@@ -1,0 +1,38 @@
+/* Navigation Bar */
+.nav {
+    display: block;
+}
+.logo {
+    width: 60px;
+    display: block;
+}
+.burger {
+    display: none !important;
+}
+
+/* MAIN / PORTFOLIO */
+.main__title {
+    font-size: 48px;
+    width: 273px;
+}
+.portfolio__title {
+  font-size: 33px;
+}
+.portfolio__project-brief {
+    width: 700px;
+}
+.portfolio__image {
+    width: 700px;
+}
+.portfolio__tools {
+    font-size: 18px;
+}
+.portfolio__button {
+    width: 170px;
+    padding: 10px;
+    font-size: 18px;
+}
+/* Technical Skills */
+.skills__title {
+    font-size: 48px;
+}
